@@ -1,0 +1,9 @@
+In Spring Boot application, Servlet, and listener are registered either as a Spring @Bean or 
+by scanning the @WebServlet and @WebListener annotated classes with an embedded container.
+
+You can use the ServletRegistrationBean and ServletListenerRegistrationBean classes to register the Servlet
+and listener respectively.
+
+This Project shows you how to use the Servlet and listener in Spring Boot application by registering them as a @Bean.
+
+you can use URL http://localhost:8080/appServlet?name=Sathish%20Kariyanna
